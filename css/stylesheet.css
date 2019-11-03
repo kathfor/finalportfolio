@@ -1,0 +1,536 @@
+.header{
+	height: 100vh;
+	background-color: #161616;
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	font-family: 'Montserrat', sans-serif;
+	background-position: center;
+	text-align: center;
+
+}
+
+
+
+a:link{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid white;
+}
+
+a:visited{
+	color: white;
+}
+
+a:active{
+	text-decoration: ;
+}
+
+.name{
+	text-align: center;
+	font-weight: normal;
+	font-size: 70px;
+	padding-top: 100px;
+	text-align: right;
+	padding-right: 50px;
+	color: #FAFAFA;
+	box-sizing: border-box;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  }
+
+.subtitle{
+	font-size: 20px;
+	padding-top: 40px;
+	text-align: right;
+	padding-right: 50px;
+	color: #FAFAFA;
+	box-sizing: border-box;
+	font-weight: normal;
+}
+
+.nav{
+	display: flex;
+	width: 100%;
+	padding-top: 195px;
+	font-size: 20px;
+	justify-content: flex-end;
+	padding-right: 50px;
+	color: white;
+	box-sizing: border-box;
+}
+
+a.current{
+	text-decoration: underline;
+	color: white;
+}
+
+
+.bottom{
+	display: flex;
+	/*width: 100%;*/
+	font-size: 20px;
+	padding-top: 100px;
+	justify-content: center;
+	color: #50223C;
+
+}
+
+.navitem{
+	display: inline-flex;
+	justify-content: space-around;
+	padding-right: 8px;
+}
+
+#aboutme, #experience, #gallery, #contact{
+	box-sizing: border-box;
+	padding-top: 50vh;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+}
+
+#aboutme{
+	color: #EEEDE9;
+}
+
+#gallery{
+	color: #31312F;
+}
+
+#contact{
+	color: #EEEDE9;
+}
+
+
+.grid{
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto auto;
+	display: grid;
+
+}
+
+.one{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	background-color: #656364;
+	height: 100vh;
+	width: 50vw;
+	text-align: center;
+	justify-content: center; 
+}
+
+img{
+	float: right;
+	height: 300px;
+	width: 180px;
+	overflow: auto;
+	padding-top: 40px;
+	border-radius: 50px;
+}
+
+.two{
+	grid-column: 2/3;
+	grid-row: 1/2;
+	height: 100vh;
+	width: 50vw;
+	background-color: white;
+	overflow: auto;
+
+}
+
+ul{
+	line-height: 1.2;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px;
+}
+
+
+.bullets{
+	padding-left: 90px;
+}
+
+li{
+	padding-top: 10px;
+}
+
+p{
+	line-height: 1.2;
+	padding-left: 10px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+.uxsteps{
+	padding-left: 50px;
+	line-height: 1.2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.three{
+	grid-column: 1/2;
+	grid-row: 2/3;
+	height: 100vh;
+	background-color: #DFDED9;
+	width: 50vw;
+	text-align: center;
+}
+
+.four{ 
+	grid-column: 2/3;
+	grid-row: 2/3;
+	height: 100vh;
+	width: 50vw;
+	text-align: center;
+	overflow: auto;
+}
+
+.bg-image {
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.img1 { background-image: url("../images/campus.jpg"); }
+.img2 { background-image: url("../images/symantec_front.jpg"); }
+.img3 { background-image: url("../images/symantec_back.jpg"); }
+.img4 { background-image: url("../images/design.jpg"); }
+.img5 { background-image: url("../images/teamwork.jpg"); }
+
+.image1_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(192, 192, 192, 0.7);
+	text-align: center;
+	width: 400px;
+	height: 200px;
+	padding-top: 70px;
+
+}
+
+.five{
+	grid-column: 1/2;
+	grid-row: 3/4;
+	height: 100vh;
+	background-color: #EEEDE9;
+	width: 50vw;
+	text-align: center;
+}
+
+.six{
+	grid-column: 2/3;
+	grid-row: 3/4;
+	grid-template-columns: 50%;
+	height: 100vh;
+	width: 50vw;
+	/*grid-template-rows: 50%;*/
+	overflow: scroll;
+
+}
+
+.sixgrid{
+	display: grid;
+	overflow: scroll;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto auto auto;
+	height: 100%;
+
+}
+
+.imageone{
+	background-size: cover;
+	height: 400px;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	background-image: url("../images/gallery/ll_home.png");
+}
+
+.imagetwo{
+	background-size: cover;
+	height: 400px;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	background-image: url("../images/gallery/ll_wallet.png");
+}
+
+.imagethree{
+	background-size: cover;
+	height: 400px;
+	grid-column: 1/2;
+	grid-row: 2/3;
+	background-image: url("../images/gallery/ll_profile.png");
+}
+
+.imagefour{
+	background-size: cover;
+	height: 400px;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	background-image: url("../images/gallery/ll_redeem.png");
+}
+
+.seven{
+	grid-column: 1/2;
+	grid-row: 4/5;
+	height: 100vh;
+	background-color: #31312F;
+	width: 50vw;
+	text-align: center;
+}
+
+.eight{
+	grid-column: 2/3;
+	grid-row: 4/5;
+	display: grid;
+	justify-content: center-left;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif; ;
+	
+}
+
+.form{
+	padding: 30px;
+
+}
+input[type=text], textarea {
+  width: 100%;
+  padding: 10px;
+  padding-left: none;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  box-sizing: border-box; 
+  background-color: white;
+}
+
+input[type=text], select{
+	border-bottom: 1px solid black;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #31312F;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  justify-content: right;
+}
+
+#linkedin{
+	background-color: #0e76a8;
+}
+
+#twitter{
+	background-color: #00acee;
+}
+
+#ux{
+	background-color: #ff69b4;
+}
+
+#arrow{
+	color: white;
+	/*padding-left: 500px;*/
+}
+
+p.arrowicon{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.fas{
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.bounce{
+	animation-name: bounce;
+	animation-timing-function: linear;
+}
+
+@keyframes bounce {
+	0%{transform: translateY(0);
+	}
+	50%{transform: translateY(-20px);
+	}
+	100%{tranform: translateY(0);}
+}
+
+.fa:hover{
+	text-decoration: none;
+	border-color: white;
+}
+
+
+a.skip-main {
+	left:-999px;
+	position:absolute;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+	color: #fff;
+	background-color:#000;
+	left: auto;
+	top: 0;
+	width: 30%;
+	height: auto;
+	overflow:auto;
+	margin: 10px 35%;
+	padding:5px;
+	border-radius: 15px;
+	border:4px solid yellow;
+	text-align:center;
+	font-size:1.2em;
+	z-index:999;
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+}
+/*phone*/
+@media screen and (max-width: 760px){
+	.name{
+		font-size: 30px;
+		text-align: center;
+		padding: 0;
+		padding-top: 100px;
+	}
+	.subtitle{
+		font-size: 15px;
+		text-align: center;
+		padding: 0;
+		padding-top: 40px;
+	}
+
+	.nav{
+		font-size: 15px;
+		text-align: center;
+		padding-right: 130px;
+		margin-top: -100px;
+	}
+
+
+	.navitem{
+		display: flex;
+		font-size: 15px;
+
+
+	}
+
+	p.arrowicon{
+		padding-top: 100px;
+
+	}
+
+	.grid{
+		display: block;
+	}
+
+	.one{
+		width: 100vw;
+
+	}
+
+	.two{
+		width: 100vw;
+
+	}
+	.three{
+		width: 100vw;
+
+	}
+
+	.four{
+		width: 100vw;
+	}
+
+	.five{
+		width: 100vw;
+	}
+
+	.six{
+		width: 100vw;
+	}
+
+	.seven{
+		width: 100vw;
+	}
+
+	h2{
+		margin-top: -50px;
+	}
+
+}
+
+/*ipad*/
+
+@media screen and (min-width: 768px) and (max-width: 1245px){
+	.header{
+		text-align: center;
+	}
+
+}
+
+/*full screen*/
+@media screen and (min-width: 1245px){
+	.header {
+		background-image: url("../images/header_logo.png");
+	}
+
+}
+
+/*reduced motion*/
+
+@media screen and (prefers-reduced-motion: reduce){
+      .fas{
+		animation-duration: 0s;
+	}
+  }
