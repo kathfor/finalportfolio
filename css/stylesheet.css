@@ -293,6 +293,11 @@ p{
 	background-image: url("../images/gallery/ll_redeem.png");
 }
 
+.imageone:hover{
+	-webkit-filter: grayscale(100%);
+	filter:grayscale(100%);
+}
+
 .seven{
 	grid-column: 1/2;
 	grid-row: 4/5;
