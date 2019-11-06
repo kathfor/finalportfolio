@@ -429,6 +429,7 @@ p{
 	font-size: 15px;
 	padding-top: 10px;
 	text-align: center;
+	color: white;
 
 }
 input[type=text], textarea {
@@ -625,6 +626,10 @@ a.skip-main:focus, a.skip-main:active {
 		margin-top: -50px;
 	}
 
+	.fas{
+		animation-duration: 0s;
+	}
+
 
 }
 
@@ -642,7 +647,73 @@ a.skip-main:focus, a.skip-main:active {
 	}
 	img{
 		display: none;
-}
+	}
+
+	.imageone{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+
+	}
+
+	.imagetwo{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+
+	}
+
+	.imagethree{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.imagefour{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.imagefive{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.imagesix{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.imageseven{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.imageeight{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.imagenine{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.imageten{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.sixgrid{
+		display: block;
+	}
 
 }
 
