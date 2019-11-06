@@ -424,6 +424,13 @@ p{
 	padding: 30px;
 
 }
+
+.blurb{
+	font-size: 15px;
+	padding-top: 10px;
+	text-align: center;
+
+}
 input[type=text], textarea {
   width: 100%;
   padding: 10px;
