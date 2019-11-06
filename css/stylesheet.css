@@ -548,7 +548,7 @@ a.skip-main:focus, a.skip-main:active {
 /*phone*/
 @media screen and (max-width: 760px){
 	.name{
-		font-size: 30px;
+		font-size: 50px;
 		text-align: center;
 		padding: 0;
 		padding-top: 100px;
@@ -562,21 +562,21 @@ a.skip-main:focus, a.skip-main:active {
 
 	.nav{
 		font-size: 15px;
-		text-align: center;
-		padding-right: 130px;
 		margin-top: -100px;
+		justify-content: center;
+		padding-left: 70px;
 	}
 
 
 	.navitem{
-		display: flex;
 		font-size: 15px;
-
+		display: block;
 
 	}
 
 	p.arrowicon{
 		padding-top: 100px;
+		align-content: center;
 
 	}
 
@@ -618,6 +618,7 @@ a.skip-main:focus, a.skip-main:active {
 		margin-top: -50px;
 	}
 
+
 }
 
 /*ipad*/
@@ -630,7 +631,7 @@ a.skip-main:focus, a.skip-main:active {
 		text-align: center;
 	}
 	.nav {
-		padding-right: 170px;
+		justify-content: center;
 	}
 	img{
 		display: none;
