@@ -9,8 +9,6 @@
 
 }
 
-
-
 a:link{
 	text-decoration: none;
 	color: white;
@@ -114,8 +112,12 @@ a.current{
 	color: #EEEDE9;
 }
 
+#experience{
+	color: #EEEDE9;
+}
+
 #gallery{
-	color: #31312F;
+	color: #EEEDE9;
 }
 
 #contact{
@@ -190,7 +192,7 @@ p{
 	grid-column: 1/2;
 	grid-row: 2/3;
 	height: 100vh;
-	background-color: #DFDED9;
+	background-color: #3C3C3C;
 	width: 50vw;
 	text-align: center;
 }
@@ -224,10 +226,61 @@ p{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: rgba(192, 192, 192, 0.7);
+	background-color: rgba(255, 255, 255, 0.75);
 	text-align: center;
 	width: 400px;
 	height: 200px;
+	padding-top: 70px;
+
+}
+
+.image2_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	width: 400px;
+	height: 300px;
+	padding-top: 70px;
+}
+
+.image3_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	width: 400px;
+	height: 250px;
+	padding-top: 70px;
+
+}
+
+.image4_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	width: 400px;
+	height: 270px;
+	padding-top: 70px;
+
+}
+
+.image5_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	width: 400px;
+	height: 300px;
 	padding-top: 70px;
 
 }
@@ -236,7 +289,7 @@ p{
 	grid-column: 1/2;
 	grid-row: 3/4;
 	height: 100vh;
-	background-color: #EEEDE9;
+	background-color: #656364;
 	width: 50vw;
 	text-align: center;
 }
@@ -293,9 +346,59 @@ p{
 	background-image: url("../images/gallery/ll_redeem.png");
 }
 
-.imageone:hover{
-	-webkit-filter: grayscale(100%);
-	filter:grayscale(100%);
+.imagefive{
+	background-size: cover;
+	height: 400px;
+	grid-column: 1/2;
+	grid-row: 3/4;
+	background-image: url("../images/gallery/rand_front.png");
+}
+
+.imagesix{
+	background-size: cover;
+	height: 400px;
+	grid-column: 2/3;
+	grid-row: 3/4;
+	background-image: url("../images/gallery/rand_back.png");
+}
+
+.imageseven{
+	background-size: cover;
+	height: 400px;
+	grid-column: 1/2;
+	grid-row: 4/5;
+	background-image: url("../images/gallery/graphic_design1.png");
+}
+
+.imageeight{
+	background-size: cover;
+	height: 400px;
+	grid-column: 2/3;
+	grid-row: 4/5;
+	background-image: url("../images/gallery/graphic_design2.png");
+
+}
+
+.imagenine{
+	background-size: cover;
+	height: 400px;
+	grid-column: 1/2;
+	grid-row: 5/6;
+	background-image: url("../images/gallery/lean_in.png");
+
+}
+
+.imageten{
+	background-size: cover;
+	height: 400px;
+	grid-column: 2/3;
+	grid-row: 5/6;
+	background-image: url("../images/gallery/date_party.png");
+
+}
+
+.gal:hover{
+	filter:drop-shadow(8px 8px 10px gray);
 }
 
 .seven{
@@ -354,10 +457,12 @@ footer{
 	color: white;
 	text-align: center;
 	padding: 10px;
+
 }
 
 .fa {
   padding: 10px;
+  margin: 10px;
   font-size: 30px;
   width: 10px;
   height: 10px;
@@ -518,9 +623,18 @@ a.skip-main:focus, a.skip-main:active {
 /*ipad*/
 
 @media screen and (min-width: 768px) and (max-width: 1245px){
-	.header{
+	.name{
 		text-align: center;
 	}
+	.subtitle{
+		text-align: center;
+	}
+	.nav {
+		padding-right: 170px;
+	}
+	img{
+		display: none;
+}
 
 }
 
