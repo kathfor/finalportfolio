@@ -416,20 +416,28 @@ p{
 	display: grid;
 	justify-content: center-left;
 	background-color: white;
-	font-family: 'Montserrat', sans-serif; ;
+	font-family: 'Montserrat', sans-serif;
 	
 }
 
 .form{
 	padding: 30px;
+	font-size: 15px;
 
 }
 
+.legend{
+	text-align: center;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
 .blurb{
-	font-size: 20px;
+	font-size: 15px;
 	padding-top: 10px;
 	text-align: center;
 	color: white;
+	margin-bottom: -20px;
 
 }
 input[type=text], textarea {
@@ -459,6 +467,11 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #31312F;
 }
+
+input:focus{
+	background-color: #EBECF0;
+}
+
 
 footer{
 	background-color: black;
