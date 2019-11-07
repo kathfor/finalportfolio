@@ -74,7 +74,7 @@ a:active{
 	font-size: 20px;
 	justify-content: flex-end;
 	padding-right: 50px;
-	color: white;
+	color: #FFFFFF;
 	box-sizing: border-box;
 }
 
@@ -426,7 +426,7 @@ p{
 }
 
 .blurb{
-	font-size: 15px;
+	font-size: 20px;
 	padding-top: 10px;
 	text-align: center;
 	color: white;
